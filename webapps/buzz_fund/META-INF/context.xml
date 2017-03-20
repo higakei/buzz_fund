@@ -1,0 +1,8 @@
+<Context path="buzz_fund" reloadable="true" docBase="buzz_fund.war">
+    <Resource name="jdbc/buzz_fund" auth="Container" type="javax.sql.DataSource"
+               maxActive="10" maxIdle="3" maxWait="10000"
+               username="buzz_fund" password="3pa5ms96" driverClassName="com.mysql.jdbc.Driver"
+               removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+               testOnBorrow="true" validationQuery="SELECT 1"
+               url="jdbc:mysql://localhost:3306/Nikkei?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull" />
+</Context>

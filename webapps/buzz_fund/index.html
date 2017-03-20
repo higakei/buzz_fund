@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">
+  <title>buzz fund - top</title>
+  <script type="text/javascript">
+<!--
+function bunseki(){
+var sig = document.getElementById("sigma");
+var md = document.getElementById("mode");
+
+var sm = parseFloat( sig.value );
+if( isNaN(sm) || sm<0.0 || sm>100) {
+window.alert("±σの値は0.0～100.0の範囲で指定して下さい！");
+return;
+}
+ret = confirm(md.value+"モード(±σ="+sm+")で宜しいですか？");
+if (ret == true){
+location.href = "action/information";
+}
+}
+-->
+  </script>
+</head>
+<body>
+<big><big><span style="font-weight: bold;">クチコミ
+分析ツール</span></big></big><br>
+<br>
+<table style="text-align: left; width: 614px; height: 56px;"
+ border="1" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td style="width: 115px;">分析モード</td>
+      <td style="width: 486px;">
+      <select id="mode" name="mode">
+      <option value="ハイブリッド">ハイブリッド</option>
+      <option value="センチメンタル分析">センチメンタル分析</option>
+      <option value="機械学習">機械学習</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 115px;">±σ</td>
+      <td style="width: 486px;"><input maxlength="5"
+ name="sigma" id="sigma"> <small><span style="color: red;">レ
+ンジ：0.0～100.0</span></small></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<button onclick="bunseki()">分析開始</button><br>
+</body>
+</html>

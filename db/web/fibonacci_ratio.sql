@@ -1,0 +1,11 @@
+INSERT INTO `fibonacci_ratio` VALUES (0, '0.000');
+INSERT INTO `fibonacci_ratio` VALUES (0.382, '0.382');
+INSERT INTO `fibonacci_ratio` VALUES (0.5, '0.500');
+INSERT INTO `fibonacci_ratio` VALUES (0.618, '0.618');
+INSERT INTO `fibonacci_ratio` VALUES (0.707, '0.707');
+INSERT INTO `fibonacci_ratio` VALUES (0.786, '0.786');
+INSERT INTO `fibonacci_ratio` VALUES (0.886, '0.886');
+INSERT INTO `fibonacci_ratio` VALUES (1, '1.000');
+INSERT INTO `fibonacci_ratio` VALUES (1.272, '1.272');
+INSERT INTO `fibonacci_ratio` VALUES (1.618, '1.618');
+INSERT INTO `fibonacci_ratio` VALUES (2, '2.000');

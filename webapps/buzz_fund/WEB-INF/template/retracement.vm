@@ -1,0 +1,10 @@
+		<table><tr><td colspan="2">$!{date.format("yyyy-MM-dd", $retracement.from)} - $!{date.format("yyyy-MM-dd", $retracement.to)}</td></tr>
+		<tr><td>
+			<table>#foreach( $highToLow in $retracement.highToLow )
+			<tr><td>#if( $highToLow.ratio == 0 )Max#else$!{highToLow.label}#end</td><td>$!{highToLow.retracement}</td></tr>
+			#end</table>
+		</td><td>
+			<table>#foreach( $lowToHigh in $retracement.lowToHigh )
+			<tr><td>#if( $lowToHigh.ratio == 0 )Min#else$!{lowToHigh.label}#end</td><td>$!{lowToHigh.retracement}</td></tr>
+			#end</table>
+		</td></tr></table>

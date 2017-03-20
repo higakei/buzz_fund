@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/webapps/buzz_fund</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>C:\Users\higa\Documents\buzz_fund.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>buzz_fund</webPath>
+</tomcatProjectProperties>

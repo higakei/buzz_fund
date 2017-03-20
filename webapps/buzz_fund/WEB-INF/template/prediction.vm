@@ -1,0 +1,7 @@
+		<table width="400"><tr><td colspan="2">$!{date.format("yyyy-MM-dd", $prediction.predictdate)}</td></tr>
+		<tr><td width="90">クチコミ指数</td><td width="310">$!{prediction.get("クチコミ指数")}</td></tr>
+		<tr><td>価格指数</td><td>$!{prediction.get("価格指数")}</td></tr>
+		<tr><td>出来高指数</td><td>$!{prediction.get("出来高指数")}</td></tr>
+		<tr><td>総合指数</td><td>$!{prediction.get("総合指数")}</td></tr>
+		<tr><td>許容偏差</td><td>$!{prediction.losscut}</td></tr>
+		<tr><td colspan="2"><font color="#ff0000">$!{prediction.notice}<font color="#ff0000"></td></tr></table>

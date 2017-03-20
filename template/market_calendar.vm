@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<market_calendar>
+#foreach($calendar in $market_calendar)
+	<day date="$date.format("yyyy-MM-dd", $calendar.date)" day_of_week="$date.format("E", $calendar.date)" isOpen="$calendar.isOpen"#if($calendar.holiday) holiday="$calendar.holiday"#end>#if($calendar.isOpen)営業日#else休業日#end</day>
+#end</market_calendar>
